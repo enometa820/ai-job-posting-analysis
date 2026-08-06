@@ -1,0 +1,17 @@
+# 공고 본문 원문은 재배포하지 않는다 — 코드·집계·지표만 공개한다
+data/
+*.parquet
+*.csv
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 모델 산출물
+*.bin
+*.safetensors
+runs/
+checkpoints/

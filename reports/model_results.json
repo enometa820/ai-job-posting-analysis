@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "n_train": 1732,
+  "n_test": 433,
+  "results": [
+    {
+      "model": "A. 제목 TF-IDF",
+      "accuracy": 0.5519630484988453,
+      "macro_f1": 0.4496678947151569,
+      "weighted_f1": 0.5717481609206742,
+      "seconds": 0.1
+    },
+    {
+      "model": "B. 본문 TF-IDF",
+      "accuracy": 0.6605080831408776,
+      "macro_f1": 0.5542821612616032,
+      "weighted_f1": 0.663889368880959,
+      "seconds": 2.5
+    },
+    {
+      "model": "C. 본문 roberta-base",
+      "accuracy": 0.6304849884526559,
+      "macro_f1": 0.5653945921803065,
+      "weighted_f1": 0.6450075708777457,
+      "seconds": 133.2
+    }
+  ]
+}
