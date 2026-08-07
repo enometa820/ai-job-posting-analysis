@@ -4,8 +4,10 @@ data/
 
 # 라벨링 시트에는 실명 회사와 본문 원문 100건이 그대로 박혀 있다(로컬 작업용).
 # 채운 결과(human-labels.json)와 집계만 공개한다.
-labels/label-sheet.html
-labels/*.raw.json
+# labels/ 는 통째로 비공개다 — 라벨링 시트·재판정 배치가 실명 회사와 본문 원문을
+# 그대로 담고 있고, 판정 JSON 도 실제 공고 id 를 키로 쓴다.
+# 공개하는 것은 집계 결과(reports/label_agreement.json)뿐이다.
+labels/
 
 # Node 이식 검증 픽스처도 본문 원문 60건을 담고 있다. 검증 결과만 README 에 적는다.
 artifacts/parity-fixture.json
