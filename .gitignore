@@ -1,7 +1,14 @@
-# 공고 본문 원문은 재배포하지 않는다 — 코드·집계·지표만 공개한다
+# 원본(실명 회사·전화번호 포함)은 올리지 않는다.
+# 공개용은 src/anonymize.py 를 통과한 data_public/ 뿐이다.
 data/
-*.parquet
-*.csv
+
+# 라벨링 시트에는 실명 회사와 본문 원문 100건이 그대로 박혀 있다(로컬 작업용).
+# 채운 결과(human-labels.json)와 집계만 공개한다.
+labels/label-sheet.html
+labels/*.raw.json
+
+# Node 이식 검증 픽스처도 본문 원문 60건을 담고 있다. 검증 결과만 README 에 적는다.
+artifacts/parity-fixture.json
 
 # 파이썬
 __pycache__/

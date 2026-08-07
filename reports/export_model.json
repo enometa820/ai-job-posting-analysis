@@ -1,0 +1,27 @@
+{
+  "trials": [
+    {
+      "max_features": 50000,
+      "macro_f1": 0.5709
+    },
+    {
+      "max_features": 20000,
+      "macro_f1": 0.5709
+    },
+    {
+      "max_features": 8000,
+      "macro_f1": 0.5834
+    },
+    {
+      "max_features": 4000,
+      "macro_f1": 0.5548
+    },
+    {
+      "max_features": 2000,
+      "macro_f1": 0.5514
+    }
+  ],
+  "chosen": 8000,
+  "macro_f1": 0.5834,
+  "size_mb": 0.47
+}
